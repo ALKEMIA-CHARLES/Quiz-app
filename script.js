@@ -107,5 +107,12 @@ const questions = [
             {text: 'Umm, I dont know', correct:false}
         ]
     },
+    {
+        question: 'What is 4 * 2 ?',
+        answers: [
+            {text: '8', correct:true},
+            {text: '10', correct:false}
+        ]
+    }
 
 ]
