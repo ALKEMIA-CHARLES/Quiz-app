@@ -83,11 +83,29 @@ function clearStatusClass(element){
 
 const questions = [
     {
-        question: 'What is 2 + 2',
+        question: 'What is 2 + 2 ?',
         answers: [
             {text: '4', correct:true },
             {text: '22', correct:false}
         ]
-    }
+    },
+    {
+        question: 'Who is the best Youtuber ?',
+        answers: [
+            {text: 'Web Dev Simplified', correct:true},
+            {text: 'Dev Ed', correct: true},
+            {text: 'Traversy', correct:true},
+            {text: 'Programming with Mosh', correct:true}
+        ]
+    },
+    {
+        question: 'Is Web Development Fun ?',
+        answers: [
+            {text: 'Kinda', correct:false},
+            {text: 'Yes ! Absolutely', correct:true},
+            {text: 'No', correct:false},
+            {text: 'Umm, I dont know', correct:false}
+        ]
+    },
 
 ]
